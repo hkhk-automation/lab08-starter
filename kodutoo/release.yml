@@ -1,4 +1,4 @@
-# Kodutöö: väljalase git'i tag'iga (v1.0.0, v1.1.0, ...).
+# Kodutöö: väljalase tag'iga (v1.0.0, v1.1.0, ...).
 # Kopeeri see fail kausta .github/workflows/ ja leia vead (kodutöö samm 2).
 name: Release
 
