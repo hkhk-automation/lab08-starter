@@ -26,7 +26,7 @@ jobs:
       - if: failure()
         run: docker logs flask1
 
-  # Kolleegi lisatud CD osa: ehitab image'i ja saadab selle GHCR-i.
+  # CD osa: ehitab image'i ja saadab selle GHCR-i.
   # Selles osas on vigu. Praktikumis leiad ja parandad need ükshaaval.
   build-and-push:
     runs-on: ubuntu-latest

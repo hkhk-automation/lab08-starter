@@ -5,7 +5,7 @@
 **Praktikumi juhend:** <https://hkhk-automation.github.io/devops/week08/lab/>
 **Loeng:** <https://hkhk-automation.github.io/devops/week08/lecture/>
 
-See on sinu esitusrepositoorium. Selles on N7 lõpu kood (Flask, testid, `Dockerfile`, CI). Kolleeg on lisanud CD osa ja Jenkinsi failid, ja neis on vigu. Klooni repositoorium masinasse `proxmox1` kausta `~/lab08` ja tee seal juhendi sammud. Asenda selles failis iga `_vastus_` oma tekstiga. Automaatkontroll otsib sõna `_vastus_`, ja kui see on alles, on vastus puudu.
+See on sinu esitusrepositoorium. Selles on N7 lõpu kood (Flask, testid, `Dockerfile`, CI). CD osas ja Jenkinsi failides on vigu. Klooni repositoorium masinasse `proxmox1` kausta `~/lab08` ja tee seal juhendi sammud. Asenda selles failis iga `_vastus_` oma tekstiga. Automaatkontroll otsib sõna `_vastus_`, ja kui see on alles, on vastus puudu.
 
 ## Mis siin repositooriumis on
 
