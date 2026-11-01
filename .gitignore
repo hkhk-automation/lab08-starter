@@ -1,0 +1,4 @@
+# Pythoni virtuaalkeskkond (N7 Osa 0)
+.venv/
+__pycache__/
+.pytest_cache/
