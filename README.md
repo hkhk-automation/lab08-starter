@@ -17,7 +17,8 @@ See on sinu esitusrepositoorium. Selles on N7 lõpu kood (Flask, testid, `Docker
 | `logid/` | `server.txt`: skripti `paigalda.sh` väljund (juhendi osa 5) |
 | `jenkins/Dockerfile` | Jenkinsi image koos plugin'idega (vigadega, juhendi osa 6) |
 | `Jenkinsfile` | sama konveier Jenkinsis |
-| `kodutoo/release.yml` | kodutöö töövoog (vigadega) |
+| `oma/` | kodutöö: sinu varasemate praktikumide failid |
+| `kodutoo/release.yml` | lisaülesanne: väljalaske töövoog (vigadega) |
 
 ---
 
@@ -72,12 +73,22 @@ _vastus_
 
 ## Kodutöö (BOONUS)
 
-| Viga | Sümptom | Põhjus | Parandus |
-|---|---|---|---|
-| K1 | _vastus_ | _vastus_ | _vastus_ |
-| K2 | _vastus_ | _vastus_ | _vastus_ |
-| K3 | _vastus_ | _vastus_ | _vastus_ |
+Kohustuslik on K1, K2 ja K3 on valikulised.
 
-**K.4** Kumb on serveris parem: `latest` või `v1.0.0`? Miks?
+| Osa | Failid (mis praktikumist) | Töö failis `oma.yml` | Mida konveier kontrollib |
+|---|---|---|---|
+| K1 Docker | _vastus_ | _vastus_ | _vastus_ |
+| K2 Compose | _vastus_ | _vastus_ | _vastus_ |
+| K3 Ansible | _vastus_ | _vastus_ | _vastus_ |
+
+**K.4** Mis pidid oma vanades failides muutma, et need konveieris töötaksid?
 
 _vastus_
+
+### Lisaülesanne: väljalase tag'iga
+
+| Viga | Sümptom | Põhjus | Parandus |
+|---|---|---|---|
+| R1 | _vastus_ | _vastus_ | _vastus_ |
+| R2 | _vastus_ | _vastus_ | _vastus_ |
+| R3 | _vastus_ | _vastus_ | _vastus_ |
