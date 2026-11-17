@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: hkhk-runner
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -17,7 +17,7 @@ jobs:
 
   konteiner:
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: hkhk-runner
     steps:
       - uses: actions/checkout@v7
       - run: docker build -t flask-app ./flask
@@ -29,7 +29,7 @@ jobs:
   # CD osa: ehitab image'i ja saadab selle GHCR-i.
   # Selles osas on vigu. Praktikumis leiad ja parandad need ükshaaval.
   build-and-push:
-    runs-on: ubuntu-latest
+    runs-on: hkhk-runner
     steps:
       - uses: actions/checkout@v7
       - name: Image'i nimi ja versioon
